@@ -1,0 +1,13 @@
+diff --git a/src/music-players.h b/src/music-players.h
+index 2755ab7..585c876 100644
+--- a/src/music-players.h
++++ b/src/music-players.h
+@@ -441,6 +441,8 @@
+   { "Microsoft", 0x045e, "Zune", 0x0710, DEVICE_FLAG_NONE },
+   // Reported by Olegs Jeremejevs
+   { "Microsoft/HTC", 0x045e, "HTC 8S", 0xf0ca, DEVICE_FLAG_NONE },
++  // Lumia 550
++  { "Microsoft", 0x045e, "Lumia 550", 0x0a00, DEVICE_FLAG_NONE },
+ 
+   /*
+    * JVC
